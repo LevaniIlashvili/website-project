@@ -1,0 +1,28 @@
+.photo, .photo1, .photo2, .photo3, .photo4 {
+    height: auto;
+    width: 200px;
+}
+
+.header {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    margin-right: 100px;
+}
