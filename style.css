@@ -1,23 +1,38 @@
-.photo, .photo1, .photo2, .photo3, .photo4 {
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.photo {
+    height: 213px;
+    width: 450px;
+}
+
+.photo1, .photo2, .photo3, .photo4 {
     height: auto;
     width: 200px;
 }
 
 .header {
-    padding-top: 10px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .header-logo {
     font-weight: bold;
     font-size: 24px;
     margin-left: 200px;
+    color: #F9FAF8;
+    text-shadow: 1px 0 #F9FAF8;
 }
 
 a {
   text-decoration: none;
+  color: #E5E7EB;
 }
 
 .header-links {
@@ -25,4 +40,60 @@ a {
     gap: 15px;
     font-size: 18px;
     margin-right: 100px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #F9FAF8;
+    text-shadow: 1px 0 #F9FAF8;
+}
+
+.header-content {
+    margin-left: 200px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 150px;
+}
+
+.header-content-text {
+    margin-bottom: 10px;
+    color: #E5E7EB;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-background {
+    background-color: #1F2937;
+    height: 530px;
+}
+
+.header-sign-up {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 50px;
+    text-shadow: 1px 0 #1F2937;
 }
